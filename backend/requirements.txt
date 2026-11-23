@@ -1,0 +1,43 @@
+# Django core
+Django==5.1.7
+djangorestframework==3.15.2
+django-cors-headers==4.6.0
+django-filter==24.3
+
+# Database
+psycopg2-binary==2.9.10
+dj-database-url==2.3.0
+
+# Authentication
+djangorestframework-simplejwt==5.4.0
+PyJWT==2.10.1
+
+# API documentation
+drf-spectacular==0.28.0
+
+# Environment variables
+python-decouple==3.8
+
+# Async tasks
+celery==5.4.0
+redis==5.2.1
+django-celery-beat==2.7.0
+
+# Telegram bot (Phase 5)
+python-telegram-bot==21.9
+
+# Export (Phase 6+)
+openpyxl==3.1.5
+reportlab==4.2.5
+
+# Production server
+gunicorn==23.0.0
+
+# Testing
+pytest==8.3.4
+pytest-django==4.9.0
+pytest-cov==6.0.0
+factory-boy==3.3.1
+
+# Utilities
+python-dateutil==2.9.0

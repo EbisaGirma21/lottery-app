@@ -1,0 +1,1 @@
+"""Winners tests package"""
